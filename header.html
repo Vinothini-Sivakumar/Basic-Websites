@@ -1,1 +1,81 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    height: 250px;
+    width: 100%;
+}
+.row1{
+    height: 200px;
+    width: 100%;
+}
+.col1{
+    float: left;
+}
+.col2{
+    height: 200px;
+    width: calc(100% - 200px);
+    float: right;
+    background-color: blue;
+}
+.col2 p{
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    top: 35%;
+    position: relative;
+}
+.row2{
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+}
+.row2 ol li{
+    display: inline;
+    padding: 5%;
+}
+.row2 ol li a{
+    font-size: 25px;
+    text-transform: capitalize;
+    text-decoration: none;
+    top: 10px;
+    position: relative;
+    color: black;
+}
+.row2 ol li a:hover{
+    border-radius: 10px 20px;
+    background-color: white;
+    padding: 6px;
+    box-shadow: black 10px 10px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="row1">
+            <div class="col1">
+                <img src="th.jpeg" height="200px" width="200px" alt="">
+            </div>
+            <div class="col2">
+                <p>web developer</p>
+            </div>
+        </div>
+        <div class="row2">
+            <ol>
+                <li><a href="">about</a></li>
+                <li><a href="">contact</a></li>
+                <li><a href="">service</a></li>
+                <li><a href="">register</a></li>
+            </ol>
+        </div>
+    </header>
+</body>
+</html>
